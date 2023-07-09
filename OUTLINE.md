@@ -1,4 +1,5 @@
 # INTRO
+5min
 ## Personal Background
 - Name: Erich Keil (aka zenlex)
 - Position: Full Stack Software Developer
@@ -8,9 +9,9 @@
 - [An Overview of Test Driven Development](#tdd-overview)
 - [Personal Pragmatic Workflows for 'TDD-ish'](#personal-pragmatic-flows-for-tdd-ish)
 - [Code Along / Practice](#code-along--workshop)
-5min
 
 # BASIC CONCEPTS OF AUTOMATED TESTING
+20min
 - What is an automated test? 
 - Types of Tests:
 	- End to End (E2E) / Browser
@@ -27,18 +28,18 @@
 		- C# - MSTest, NUnit, xUnit.NET
 		- PHP - PHPUnit, Pest
 		- ...
-20min
 
 # TDD OVERVIEW
+15min
 - Basic ideas:
 	- Write tests before code
 	- Use the test structure to help specify requirements and architecture
 	- Keep changes small and incremental and test after each change
 	- 'Red, Green, Refactor' loop
 	- Maintain the test code in tandem with the project code
-15min
 
 # PERSONAL PRAGMATIC FLOWS FOR TDD-ISH
+20min
 - The todo list / outside in approach:
 	- Map out feature flow (flow chart, sketch pad, pseudocode, etc.)
 	- Write core functionality test for each stage in flow
@@ -55,9 +56,8 @@
 - Project mindset:
 	- It should be easy within a codebase to write and run tests, ideally with a watch mode option
 	- Failing tests should not be allowed to persist or be committed - fix them, mark them as skipped with documentation as to why, or delete them. Noisy test output greatly hinders the usefulness.
-20min
 
 # CODE-ALONG / WORKSHOP
-- Option A - add tests to existing app (could use the Nightmoves CRUD app I wrote for shopify)
-- Option B - build a todo list in TDD style with Vue + json-server, then swap in express + db for json-server
 60min
+- Option A - add tests to existing app (could use the Nightmoves vanilla CRUD app I wrote for shopify but no component examples in that one since no React/Vue)
+- Option B - build a todo list in TDD style with Vue + json-server, then swap in express + db for json-server
