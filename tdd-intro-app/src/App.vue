@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import ToDoList from './components/ToDoList.vue';
 </script>
 
 <template>
-  <HelloWorld msg="Vite + Vue" />
+  <ToDoList msg="Hey there, I'm a prop"/>
 </template>
 
 <style scoped>
