@@ -14,7 +14,7 @@ it('should render a list of items based on props', async () => {
 	}
 
 	render(TodoList, { props });
-	items.forEach(async (item) => {
-		await screen.getByText(item.text);
+	items.forEach((item) => {
+		screen.getByText(item.text);
 	})
 })
